@@ -1,0 +1,1719 @@
+/* ! Google FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+html {
+    font-size: 100%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+    background-color: rgb(119, 116, 116);
+    animation: scroll 70s linear infinite;
+    background: url("https://static.vecteezy.com/system/resources/previews/000/589/609/original/vector-pixel-art-cheeseburger-seamless-background.png"), #111111;
+    color: #eee;
+    /* perspective: 1000px; */
+    /* perspective-origin: 50% 50%; */
+}
+
+.column-20 {
+    width: 20%;
+}
+
+.column-25 {
+    width: 25%;
+}
+
+.column-50 {
+    width: 50%;
+}
+
+.column-75 {
+    width: 75%;
+}
+
+.column-100 {
+    width: 100%;
+}
+
+.column-100,
+.column-75,
+.column-50,
+.column-25,
+.column-20 {
+    float: left;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img,
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ! Navbar START */
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        padding: 125px 30px;
+    }
+}
+
+
+/* ! Anasayfa NAVBAR START */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 35px 100px 0;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+header a {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: rgb(255, 0, 0);
+    transition: 3s ease-in-out;
+}
+
+header i {
+    color: white;
+}
+
+header i:hover {
+    color: rgb(255, 0, 0);
+    transition: 3s ease-in-out;
+}
+
+header h2 {
+    text-transform: uppercase;
+}
+
+header .nav {
+    display: flex;
+}
+
+header .nav li {
+    margin: 0 15px;
+}
+
+header .nav li:first-child {
+    margin-left: 0;
+}
+
+header .nav li:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    header h2 {
+        margin-bottom: 15px;
+    }
+    header .nav li {
+        margin: 0 7px;
+    }
+}
+
+.box {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.box video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.box h1 {
+    margin-bottom: 15px;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.box h3 {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+er .box a.boxBtn {
+    padding: 15px 35px;
+    background: transparent;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    border: 4px solid white;
+    transition: all 0.5s;
+}
+
+.box a.boxBtn:hover {
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        min-height: 600px;
+    }
+    .box h1 {
+        font-size: 32px;
+    }
+    .box h3 {
+        font-size: 20px;
+    }
+    .box a.boxBtn {
+        padding: 15px 40px;
+    }
+}
+
+
+/* ! Anasayfa Navbar END */
+
+
+/* ! Ana Sayfa START */
+
+.container {
+    width: 80%;
+    padding: 80px;
+    margin: auto;
+    overflow: hidden;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.content-1 {
+    width: 80%;
+    padding: 80px;
+    margin: auto;
+    margin-top: 300px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.aperatifler {
+    width: 80%;
+    height: 100%;
+    padding: 80px;
+    margin: 15px auto;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.content-1 h2 {
+    font-family: "VT323", monospace;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.content-1 p {
+    font-family: "VT323", monospace;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.content {
+    width: 100%;
+}
+
+.column-50 img {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.column-100 img {
+    width: 50%;
+    margin: auto;
+}
+
+#who {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(255, 0, 140);
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    width: 70%;
+    text-decoration: none;
+    --d: 14px;
+    padding: 8px 8px 8px calc(8px + var(--d));
+    background: linear-gradient(rgba(255, 255, 255, 0.4) 0 0) left/var(--d) 100% no-repeat;
+    clip-path: polygon( var(--d) 3px, var(--d) 0, 100% 0, 100% 100%, var(--d) 100%, var(--d) calc(100% - 3px));
+    transform: perspective(1000px) rotateY(0deg);
+    transition: 0.4s, color 0.4s 0.4s, background-color 0.4s 0.4s;
+    background-color: #ffd700;
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    margin-top: 270px;
+}
+
+#who:hover {
+    color: white;
+    background-color: #000;
+    color: #fff;
+    clip-path: polygon( 0px 3px, var(--d) 0, 100% 0, 100% 100%, var(--d) 100%, 0 calc(100% - 3px));
+    transform: perspective(1000px) rotateY(40deg);
+    transition: 0.4s, clip-path 0.4s 0.4s, transform 0.4s 0.4s;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.content h4 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.column-100 img {
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+
+.card {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.card .column-20 {
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 42px;
+    border-radius: 5px;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.card .column-20 p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card .column-20 ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.card .column-20 i {
+    padding: 5px;
+    text-align: center;
+    color: yellow;
+}
+
+.kesme {
+    border-top: 1px solid black;
+}
+
+.aperatifler .content .column-50 p {
+    margin-top: 0;
+}
+
+
+/* ! Ana Sayfa END */
+
+
+/* ! Pacman START */
+
+.pacman {
+    top: 50%;
+    /* left: 50%; */
+    /* position: absolute; */
+}
+
+.game,
+.pacman,
+.pacman>div {
+    position: absolute;
+}
+
+.game {
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.dot,
+.pacman,
+.social-links {
+    -webkit-transform: translateY(-50%);
+}
+
+.pacman-top {
+    -webkit-animation: spinTop 0.5s infinite linear;
+}
+
+.pacman-bottom {
+    -webkit-animation: spinBottom 0.5s infinite linear;
+}
+
+.dot {
+    -webkit-animation: dot 8s infinite linear;
+}
+
+.dot:nth-child(2) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.dot:nth-child(3) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.dot:nth-child(4) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.dot:nth-child(5) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.dot:nth-child(6) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.dot:nth-child(7) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.dot:nth-child(8) {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+.dot:nth-child(9) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+@-webkit-keyframes spinTop {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(-35deg);
+        transform: rotate(-35deg);
+    }
+}
+
+@keyframes spinTop {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(-35deg);
+        transform: rotate(-35deg);
+    }
+}
+
+@-webkit-keyframes spinBottom {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(35deg);
+        transform: rotate(35deg);
+    }
+}
+
+@keyframes spinBottom {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(35deg);
+        transform: rotate(35deg);
+    }
+}
+
+@-webkit-keyframes dot {
+    0% {
+        right: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        right: 100%;
+        opacity: 0;
+    }
+}
+
+.game {
+    /* top: 25%; */
+    margin-top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25%;
+    width: 80%;
+    border-top: solid 5px #00f;
+    border-bottom: solid 5px #00f;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.pacman {
+    width: 150px;
+    height: 150px;
+    transform: translateY(-50%);
+    background: 0 0;
+    z-index: 1;
+}
+
+.pacman>div {
+    background-color: #ff0;
+    height: 50%;
+    width: 100%;
+}
+
+.pacman-top {
+    top: 0;
+    border-radius: 100px 100px 0 0;
+    animation: spinTop 0.5s infinite linear;
+}
+
+.dot,
+.social-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pacman-bottom {
+    bottom: 0;
+    border-radius: 0 0 100px 100px;
+    animation: spinBottom 0.5s infinite linear;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    right: -30px;
+    animation: dot 8s infinite linear;
+}
+
+@keyframes spinTop {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-35deg);
+    }
+}
+
+@keyframes spinBottom {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(35deg);
+    }
+}
+
+@keyframes dot {
+    0% {
+        right: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        right: 100%;
+        opacity: 0;
+    }
+}
+
+
+/* ! Pacman END */
+
+
+/* ! Login START */
+
+
+/* ! Content START */
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "VT323", monospace;
+}
+
+.main {
+    width: 350px;
+    height: 500px;
+    background: red;
+    overflow: hidden;
+    animation: scroll 70s linear infinite;
+    background-color: wheat;
+    opacity: 0.9;
+    color: #eee;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0px -3000px;
+    }
+}
+
+#chk {
+    display: none;
+}
+
+.signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    color: #ff0000;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-family: "VT323", monospace;
+}
+
+.body input {
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #ff0000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    font-family: "VT323", monospace;
+}
+
+button:hover {
+    background: #12d84d;
+}
+
+.login {
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: 0.8s ease-in-out;
+}
+
+.login label {
+    color: #ff0000;
+    transform: scale(0.6);
+}
+
+#chk:checked~.login {
+    transform: translateY(-500px);
+}
+
+#chk:checked~.login label {
+    transform: scale(1);
+}
+
+#chk:checked~.signup label {
+    transform: scale(0.6);
+}
+
+
+/* ! Content END */
+
+
+/* ! Footer START */
+
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px auto;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+footer .column-50 h3 {
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: 32px;
+}
+
+footer .column-50 img {
+    width: 10%;
+    height: auto;
+    margin: auto;
+}
+
+footer .column-50 p {
+    font-size: 20px;
+    font-family: "VT323", monospace;
+}
+
+footer .column-50 ul {
+    list-style-type: none;
+}
+
+footer .column-50 ul li {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .column-50 ul li a {
+    color: white;
+    font-family: "VT323", monospace;
+}
+
+footer .column-50 ul li a:hover {
+    color: rgb(255, 0, 0);
+    transition: 3s ease-in-out;
+}
+
+
+/* ! Footer END */
+
+
+/* ! Login END */
+
+
+/* ! Other Nav START */
+
+.other-nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.other-nav a {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.other-nav a:hover {
+    color: rgb(255, 255, 255);
+    transition: 3s ease-in-out;
+}
+
+.other-nav i {
+    color: rgb(0, 0, 0);
+}
+
+.other-nav i:hover {
+    color: rgb(255, 255, 255);
+    transition: 3s ease-in-out;
+}
+
+.other-nav h2 {
+    text-transform: uppercase;
+}
+
+.other-nav .nav {
+    display: flex;
+}
+
+.other-nav .nav li {
+    margin: 0 15px;
+}
+
+.other-nav .nav li:first-child {
+    margin-left: 0;
+}
+
+.other-nav .nav li:last-child {
+    margin-right: 0;
+}
+
+
+/* ! Hakkımızda START */
+
+.hakkimizda {
+    text-align: center;
+    width: 60%;
+    margin: 150px auto;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.hakkimizda h4 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "VT323", monospace;
+}
+
+.hakkimizda p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 44px;
+    color: rgb(0, 0, 0);
+    font-family: "VT323", monospace;
+}
+
+
+/* .hakkimizda img {
+  width: 25%;
+  height: 300px;
+  object-fit: cover;
+} */
+
+.hakkimizda i {
+    color: black;
+}
+
+.imza {
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 24px;
+    font-family: "VT323", monospace;
+    color: white;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.imza i {
+    color: black;
+}
+
+.imza p {
+    font-size: 32px;
+    background: -webkit-linear-gradient(315deg, #eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h-container-bottom .column-100 {
+    text-align: center;
+    background-color: #c9e0a4;
+    padding: 100px;
+}
+
+.h-container-bottom p {
+    font-size: 24px;
+    font-family: "VT323", monospace;
+    color: white;
+}
+
+.container-hakkimizda {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+
+/* ! Hakkımızda END */
+
+
+/* ! Menu CSS START */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.sidebar img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.content-m {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+
+/* ! Menu START */
+
+.container-menu {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border: hidden;
+}
+
+#logo {
+    position: relative;
+    left: 650px;
+    margin-top: 50px;
+    width: 15%;
+    display: block;
+}
+
+#m-h1,
+.m-h2,
+#m-h3,
+#m-h4,
+#m-h5,
+#m-h6,
+#m-h7 {
+    text-align: center;
+    font-family: "VT323", monospace;
+    color: black;
+}
+
+.optionn {
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "VT323", monospace;
+}
+
+.boxx .column-50 {
+    width: 45%;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background: linear-gradient( 315deg, rgb(255, 242, 196), rgb(238, 161, 96), rgb(186, 97, 86), rgb(79, 255, 25));
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.boxx img {
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.boxx p,
+h5 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: "VT323", monospace;
+}
+
+.price {
+    position: absolute;
+    top: 2px;
+    right: 16px;
+}
+
+
+/* ! Footer START */
+
+.menu-f {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px auto;
+    background: linear-gradient( 315deg, rgb(255, 238, 0) 3%, rgb(150, 122, 0) 38%, rgb(145, 0, 0) 68%, rgb(79, 255, 25) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.menu-f .column-75 {
+    margin: auto;
+}
+
+footer .column-50 h3 {
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: 32px;
+}
+
+footer .column-50 .menu-gorsel {
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+footer .column-50 p {
+    font-size: 20px;
+    font-family: "VT323", monospace;
+}
+
+footer .column-50 ul {
+    list-style-type: none;
+    display: block;
+}
+
+footer .column-50 ul li {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .column-50 ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: "VT323", monospace;
+}
+
+
+/* ! Footer END */
+
+
+/* ! Menu CSS END */
+
+
+/* ! İletisim CSS START */
+
+
+/* ! İletisim CSS END */
+
+
+/* ! Responsive */
+
+
+/* ! Anasayfa START */
+
+@media screen and (max-width: 1629px) {
+    #who {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1447px) {
+    #who {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .content-1 p,
+    #who {
+        margin-top: 130px;
+    }
+    .content-1 img {
+        width: 100%;
+    }
+    .footer .column-50 img {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    #who {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .column-50 p {
+        margin-top: 80px;
+    }
+    .card .column-20 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .content-1 p,
+    #who {
+        margin-top: 40px;
+    }
+    .content-1 h2 {
+        margin: 5px;
+    }
+    .content-1 img {
+        width: 100%;
+    }
+    .content-2,
+    .container img {
+        width: 75%;
+    }
+    .card .column-20 i {
+        padding: 3px;
+    }
+    .back .column-20 .kart {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    #who {
+        margin-top: 0;
+    }
+    .card .column-20 i {
+        padding: 4px;
+    }
+    .card .column-20 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .content-1 .column-50 p,
+    #who {
+        padding: 10px;
+        margin: 20px;
+        width: 100%;
+    }
+    .content-1 img {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .content-1 h2 {
+        margin-left: 30px;
+    }
+    .content-1,
+    .container {
+        padding: 40px;
+    }
+    .footer .column-50 img {
+        width: 15%;
+    }
+    .card .column-20 i {
+        padding: 5px;
+    }
+    .card .column-20 {
+        width: 40%;
+        margin-left: 50px;
+    }
+    /* .game {
+    top: 120%;
+  } */
+}
+
+@media screen and (max-width:854px) {
+    .card .column-20 i {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .card .column-20 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* .game {
+    top: 57%;
+    height: 20%;
+  }  */
+}
+
+@media screen and (max-width: 742px) {
+    .content-1,
+    .container {
+        padding: 20px;
+    }
+    .content-1 img {
+        width: 75%;
+        margin-left: 75px;
+    }
+    .content-1 #who {
+        width: 100%;
+    }
+    .content-1 .column-50 p {
+        width: 120%;
+    }
+    .footer .column-50 img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .card .column-20 i {
+        padding: 5px;
+    }
+    .card .column-20 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .container .column-50 {
+        width: 100%;
+    }
+    .content-1 .column-50 {
+        width: 100%;
+    }
+    .content-1 .column-50 p {
+        width: 100%;
+    }
+    #who {
+        margin: auto;
+    }
+    .card {
+        display: block;
+        width: 100%;
+    }
+    .card .column-20 {
+        width: 80%;
+        margin-left: 45px;
+    }
+    .card .column-20 p {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .card .column-20 i {
+        padding: 10px;
+    }
+    .content-1,
+    .container,
+    .aperatifler {
+        width: 100%;
+    }
+    .container .content .column-50 p {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .container .column-50 p {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .aperatifler .content .column-50 p {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .aperatifler .column-50 {
+        width: 100%;
+    }
+    .aperatifler .column-50 img {
+        width: 100%;
+    }
+    .content-1 h2 {
+        text-align: center;
+    }
+    .footer .column-50 img {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .card .column-20 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header .nav li a {
+        font-size: 12px;
+    }
+    .footer .column-50 img {
+        width: 35%;
+    }
+    .card .column-20 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    /* .game {
+    top: 55%;
+    height: 20%;
+  } */
+}
+
+@media screen and (max-width:375px) {
+    /* .game {
+    top: 75%;
+    height: 25%;
+  } */
+}
+
+@media screen and (max-width:360px) {
+    /* .game {
+    top: 65%;
+  } */
+}
+
+@media screen and (max-width:280px) {
+    /* .game {
+    top: 75%;
+    height: 25%;
+  } */
+}
+
+
+/* ! Anasayfa END */
+
+
+/* ! Menu START */
+
+@media screen and (max-width:1423px) {
+    .menu-f .column-75 {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1233px) {
+    .container-menu .column-50 {
+        width: 25%;
+    }
+    .optionn,
+    p {
+        width: 75%;
+    }
+    .container-menu .column-50 .menu-gorsel {
+        width: 35%;
+    }
+    .price {
+        justify-content: end;
+    }
+    .menu-f .column-50 img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .boxx h5 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-menu .content-m {
+        margin-right: 100px;
+    }
+    .boxx .column-50 {
+        margin-left: 200px;
+    }
+    .container-menu .column-50 {
+        width: 75%;
+    }
+    .price {
+        text-align: center;
+        padding: 0;
+        justify-content: end;
+    }
+    .boxx h5 {
+        font-size: 16px;
+    }
+    .boxx p {
+        margin: auto;
+        font-size: 20px;
+    }
+    .menu-f {
+        margin-left: 20px;
+        width: 110%;
+    }
+    .menu-f .column-50 img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-f .column-50 img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 863px) {
+    .menu-f {
+        width: 110%;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .menu-f {
+        width: 110%;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 110%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+    .sidebar a {
+        /* float: left; */
+        margin: auto;
+    }
+    .content-m {
+        margin: 0;
+    }
+    .menu-f .column-50 img {
+        width: 25%;
+    }
+    .menu-f .column-75 {
+        width: 55%;
+        margin: auto;
+    }
+    .menu-f {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-f .column-50 img {
+        width: 50%;
+    }
+    .boxx .column-50 {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .boxx .column-50 {
+        margin-left: 110px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .footer .column-50 ul {
+        padding: 0;
+    }
+    .boxx .column-50 {
+        margin-left: 110px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    footer ul {
+        font-size: 16px;
+    }
+    footer.column-50 {
+        width: 100%;
+    }
+    .boxx .column-50 {
+        margin-left: 80px;
+        width: 110%;
+    }
+}
+
+
+/* ! Menu END */
+
+
+/* ! Hakkımızda-Other Nav START */
+
+@media screen and (max-width: 1000px) {
+    .other-nav {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .other-nav {
+        flex-direction: column;
+    }
+    header h2 {
+        margin-bottom: 15px;
+    }
+    .other-nav .nav li {
+        margin: 0 7px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .other-nav ul {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .other-nav .nav li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:379px) {
+    .other-nav ul {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hakkimizda img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .hakkimizda img {
+        width: 100%;
+    }
+    .hakkimizda {
+        width: 100%;
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .imza p {
+        margin: auto;
+    }
+    footer .column-50 p {
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
+/* ! Hakkımızda-Other Nav END */
+
+
+/* !Login START */
+
+@media screen and (max-width:1264px) {
+    .main {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    header ul {
+        justify-content: center;
+    }
+    .main {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    header .nav li a {
+        font-size: 12px;
+    }
+}
+
+
+/* ! Login END */
+
+
+/* ! İletisim START */
+
+
+/* ! İletisim END */
+
+
+/* ! İletisim END */
